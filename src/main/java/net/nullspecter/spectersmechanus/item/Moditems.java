@@ -10,10 +10,10 @@ import net.nullspecter.spectersmechanus.spectersmechanus;
 public class Moditems {
     
     public static final Item UPGRADE_CORE = registerItem("upgrade_core", 
-        new Item(new FabricItemSettings().group(ItemGroup.MISC) .maxCount(64)));
+        new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(64)));
 
         public static final Item MECHANICAL_BOOTS = registerItem("mechanical_boots", 
-        new Item(new FabricItemSettings().group(ItemGroup.COMBAT) .maxCount(1) ));
+        new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(1) ));
     
     
         private static Item registerItem( String name, Item item) {
