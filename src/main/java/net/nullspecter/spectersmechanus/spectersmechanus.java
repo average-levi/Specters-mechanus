@@ -1,6 +1,7 @@
 package net.nullspecter.spectersmechanus;
 
 import net.fabricmc.api.ModInitializer;
+import net.nullspecter.spectersmechanus.block.ModBlocks;
 import net.nullspecter.spectersmechanus.item.Moditems;
 
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class spectersmechanus implements ModInitializer {
 	@Override
 	public void onInitialize() {
 			Moditems.registerModitems();
+			ModBlocks.registerModBlocks();
 	}
 }
