@@ -11,4 +11,5 @@ public class ModItemGroup {
     public static final ItemGroup MECHANUS = FabricItemGroupBuilder.build(
         new Identifier(spectersmechanus.MOD_ID, "mechanus"), () -> new ItemStack(Moditems.UPGRADE_CORE));
 
+      
 }
