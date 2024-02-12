@@ -1,9 +1,9 @@
 {
     "item.spectersmechanus.upgrade_core": "Upgrade Core",
     "item.spectersmechanus.mechanical_boots": "Mechanical Boots",
-
+    "item.spectersmechanus.protoype_sword": "Protoype Sword",
     "block.spectersmechanus.mechanus_core_block": "Mechanus Core",
     "block.spectersmechanus.augement_table_block": "Augment Table",
-
+    
     "itemGroup.spectersmechanus.mechanus": "Mechanus"
 }

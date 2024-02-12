@@ -14,7 +14,11 @@ public class Moditems {
         public static final Item MECHANICAL_BOOTS = registerItem("mechanical_boots", 
         new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(1) ));
     
-    
+        public static final Item PROTOTYPE_SWORD = registerItem("protoype_sword", 
+        new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(1) .maxDamage(4)));
+        
+        
+
         private static Item registerItem( String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(spectersmechanus.MOD_ID, name), item);
     }
