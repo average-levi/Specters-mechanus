@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "spectersmechanus:upgrade_core"
+      },
+      "X": {
+        "item": "minecraft:copper_ingot"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "pattern": [
+      "X",
+      "#",
+      "I"
+    ],
+    "result": {
+      "item": "spectersmechanus:protoype_sword"
+    }
+  }

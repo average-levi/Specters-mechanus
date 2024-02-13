@@ -17,6 +17,9 @@ public class Moditems {
         public static final Item PROTOTYPE_SWORD = registerItem("protoype_sword", 
         new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(1) .maxDamage(4)));
         
+        public static final Item WARPED_KEY = registerItem("warped_key", 
+        new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(1)));
+        
         
 
         private static Item registerItem( String name, Item item) {

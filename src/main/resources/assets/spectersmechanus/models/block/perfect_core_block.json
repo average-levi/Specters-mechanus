@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "spectersmechanus:block/perfect_core_block"
+    }
+}

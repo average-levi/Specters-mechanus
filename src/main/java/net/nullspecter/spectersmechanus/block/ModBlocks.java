@@ -18,7 +18,7 @@ public class ModBlocks {
     
 
    //Added Block Mechanus Core
-     public static final Block MECHANUS_CORE_BLOCK = registerBlock("mechanus_core_block", 
+     public static final Block PERFECT_CORE_BLOCK = registerBlock("perfect_core_block", 
         new Block(FabricBlockSettings.of(Material.METAL).hardness(4).luminance(2)
         .strength(4).requiresTool()), ModItemGroup.MECHANUS);
    
