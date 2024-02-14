@@ -5,6 +5,7 @@
     "block.spectersmechanus.perfect_core_block": "The Perfect Core",
     "block.spectersmechanus.augement_table_block": "Augment Table",
     "item.spectersmechanus.warped_key": "Warped Key",
-
+    "item.spectersmechanus.cut_shard": "Cut Core Shard",
+    "item.spectersmechanus.core_shard": "Core Shard",
     "itemGroup.spectersmechanus.mechanus": "Mechanus"
 }

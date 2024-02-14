@@ -11,6 +11,12 @@ public class Moditems {
     public static final Item UPGRADE_CORE = registerItem("upgrade_core", 
         new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(64)));
 
+        public static final Item CORE_SHARD = registerItem("core_shard", 
+        new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(64)));
+
+        public static final Item CUT_SHARD = registerItem("cut_shard", 
+        new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(64)));
+
         public static final Item MECHANICAL_BOOTS = registerItem("mechanical_boots", 
         new Item(new FabricItemSettings().group(ModItemGroup.MECHANUS) .maxCount(1) ));
     
